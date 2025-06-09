@@ -1,0 +1,190 @@
+.dashboard-container {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  background-color: rgb(54, 59, 70);
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #1f2937;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #f5f6fa;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.nav-links li {
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+  color: #ffffff;
+}
+
+.nav-links li:hover {
+  background-color: #374151;
+  transform: scale(1.02);
+}
+
+/* Main content */
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background-color: rgb(54, 59, 70);
+  color: #ffffff;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 18px 32px;
+  background-color: #2f3640;
+  border-bottom: 1px solid #444;
+}
+
+/* --- Back Button --- */
+.back-button {
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.back-button:hover {
+  background-color: #2980b9;
+  transform: scale(1.03);
+}
+
+.back-button i {
+  font-size: 0.9rem;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.user-profile img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #3498db;
+}
+
+/* Details section */
+.details-section {
+  padding: 40px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(54, 59, 70);
+}
+
+/* Metrics card */
+.metrics-card {
+  background-color: #2f3640;
+  border-radius: 12px;
+  padding: 28px 36px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 900px;
+  font-size: 1rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.metrics-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+  color: #dcdde1;
+}
+
+.timestamp {
+  font-size: 0.88rem;
+  color: #a4b0be;
+  font-style: italic;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #555;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.card-grid div {
+  background-color: #3a3f4b;
+  border: 1px solid #555;
+  padding: 14px 16px;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.card-grid div:hover {
+  background-color: #4b5162;
+  transform: scale(1.03);
+}
+
+.card-grid strong {
+  color: #00a8ff;
+}
+
+.no-data {
+  color: #bdc3c7;
+  font-size: 1rem;
+  margin-top: 20px;
+}

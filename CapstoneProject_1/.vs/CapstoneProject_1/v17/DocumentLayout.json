@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|c:\\users\\veera\\source\\repos\\original\\capstoneproject_1\\controllers\\athletesubscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|solutionrelative:controllers\\athletesubscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|c:\\users\\veera\\source\\repos\\original\\capstoneproject_1\\controllers\\coachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|solutionrelative:controllers\\coachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|c:\\users\\veera\\source\\repos\\original\\capstoneproject_1\\controllers\\athletescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|solutionrelative:controllers\\athletescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|c:\\users\\veera\\source\\repos\\original\\capstoneproject_1\\dto\\athletesubscriptiondatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|solutionrelative:dto\\athletesubscriptiondatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|c:\\users\\veera\\source\\repos\\original\\capstoneproject_1\\models\\athletesubscriptiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|solutionrelative:models\\athletesubscriptiondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|c:\\users\\veera\\source\\repos\\original\\capstoneproject_1\\dto\\athletetrainingprogramdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|solutionrelative:dto\\athletetrainingprogramdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|c:\\users\\veera\\source\\repos\\original\\capstoneproject_1\\models\\athletesubscrition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|solutionrelative:models\\athletesubscrition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|c:\\users\\veera\\source\\repos\\original\\capstoneproject_1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|c:\\users\\veera\\source\\repos\\original\\capstoneproject_1\\models\\athletetrainingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|solutionrelative:models\\athletetrainingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|c:\\users\\veera\\source\\repos\\original\\capstoneproject_1\\controllers\\athletetrainingprogramcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|solutionrelative:controllers\\athletetrainingprogramcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|c:\\users\\veera\\source\\repos\\original\\capstoneproject_1\\migrations\\20250604205449_athletesubscritions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|solutionrelative:migrations\\20250604205449_athletesubscritions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|c:\\users\\veera\\source\\repos\\original\\capstoneproject_1\\migrations\\20250604203627_athletesubscrition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{422A20B6-553C-3D82-C696-E2594BF76EF2}|CapstoneProject_1.csproj|solutionrelative:migrations\\20250604203627_athletesubscrition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AthletesController.cs",
+              "DocumentMoniker": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Controllers\\AthletesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AthletesController.cs",
+              "ToolTip": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Controllers\\AthletesController.cs",
+              "RelativeToolTip": "Controllers\\AthletesController.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAUwKEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T05:30:07.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoachController.cs",
+              "DocumentMoniker": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Controllers\\CoachController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoachController.cs",
+              "ToolTip": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Controllers\\CoachController.cs",
+              "RelativeToolTip": "Controllers\\CoachController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAIwIAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T04:49:38.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AthleteTrainingProgramDTO.cs",
+              "DocumentMoniker": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\DTO\\AthleteTrainingProgramDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\AthleteTrainingProgramDTO.cs",
+              "ToolTip": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\DTO\\AthleteTrainingProgramDTO.cs",
+              "RelativeToolTip": "DTO\\AthleteTrainingProgramDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T03:16:37.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AthleteSubscriptionDataDTO.cs",
+              "DocumentMoniker": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\DTO\\AthleteSubscriptionDataDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\AthleteSubscriptionDataDTO.cs",
+              "ToolTip": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\DTO\\AthleteSubscriptionDataDTO.cs",
+              "RelativeToolTip": "DTO\\AthleteSubscriptionDataDTO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:57:33.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250604205449_athletesubscritions.cs",
+              "DocumentMoniker": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Migrations\\20250604205449_athletesubscritions.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250604205449_athletesubscritions.cs",
+              "ToolTip": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Migrations\\20250604205449_athletesubscritions.cs",
+              "RelativeToolTip": "Migrations\\20250604205449_athletesubscritions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:54:49.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAIwB4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:42:12.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250604203627_athletesubscrition.cs",
+              "DocumentMoniker": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Migrations\\20250604203627_athletesubscrition.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250604203627_athletesubscrition.cs",
+              "ToolTip": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Migrations\\20250604203627_athletesubscrition.cs",
+              "RelativeToolTip": "Migrations\\20250604203627_athletesubscrition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:36:28.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "athletesubscrition.cs",
+              "DocumentMoniker": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Models\\athletesubscrition.cs",
+              "RelativeDocumentMoniker": "Models\\athletesubscrition.cs",
+              "ToolTip": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Models\\athletesubscrition.cs",
+              "RelativeToolTip": "Models\\athletesubscrition.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:35:28.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AthleteSubscriptionData.cs",
+              "DocumentMoniker": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Models\\AthleteSubscriptionData.cs",
+              "RelativeDocumentMoniker": "Models\\AthleteSubscriptionData.cs",
+              "ToolTip": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Models\\AthleteSubscriptionData.cs",
+              "RelativeToolTip": "Models\\AthleteSubscriptionData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:31:46.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AthleteSubscriptionsController.cs",
+              "DocumentMoniker": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Controllers\\AthleteSubscriptionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AthleteSubscriptionsController.cs",
+              "ToolTip": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Controllers\\AthleteSubscriptionsController.cs",
+              "RelativeToolTip": "Controllers\\AthleteSubscriptionsController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:31:43.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AthleteTrainingProgram.cs",
+              "DocumentMoniker": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Models\\AthleteTrainingProgram.cs",
+              "RelativeDocumentMoniker": "Models\\AthleteTrainingProgram.cs",
+              "ToolTip": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Models\\AthleteTrainingProgram.cs",
+              "RelativeToolTip": "Models\\AthleteTrainingProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:30:49.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AthleteTrainingProgramController.cs",
+              "DocumentMoniker": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Controllers\\AthleteTrainingProgramController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AthleteTrainingProgramController.cs",
+              "ToolTip": "C:\\Users\\veera\\source\\repos\\ORIGINAL\\CapstoneProject_1\\Controllers\\AthleteTrainingProgramController.cs",
+              "RelativeToolTip": "Controllers\\AthleteTrainingProgramController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:30:38.359Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

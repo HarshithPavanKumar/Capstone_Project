@@ -1,0 +1,114 @@
+<div class="container mt-5">
+  <h2>Athlete Registration</h2>
+
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <!-- Name -->
+    <div class="mb-3">
+      <label>Name</label>
+      <input type="text" class="form-control" formControlName="name" />
+      @if (registerForm.get('name')?.touched &&
+      registerForm.get('name')?.invalid) {
+      @if (registerForm.get('name')?.errors?.['required']) {
+      <div class="text-danger">Name is required.</div>
+      }
+      @if (registerForm.get('name')?.errors?.['pattern']) {
+      <div class="text-danger">Name must contain only letters and spaces.</div>
+      }
+      }
+    </div>
+
+    <!-- Age -->
+    <div class="mb-3">
+      <label>Age</label>
+      <input type="number" class="form-control" formControlName="age" />
+      @if (registerForm.get('age')?.touched && registerForm.get('age')?.invalid)
+      {
+      <div class="text-danger">Age must be between 10 and 100.</div>
+      }
+    </div>
+
+    <!-- Gender -->
+    <div class="mb-3">
+      <label>Gender</label>
+      <select class="form-control" formControlName="gender">
+        <option value>Select Gender</option>
+        @for (g of genders; track g) {
+        <option [value]="g">{{ g }}</option>
+        }
+      </select>
+      @if (registerForm.get('gender')?.touched &&
+      registerForm.get('gender')?.invalid) {
+      <div class="text-danger">Gender is required.</div>
+      }
+    </div>
+
+    <!-- Height -->
+    <div class="mb-3">
+      <label>Height (in cm)</label>
+      <input type="number" class="form-control" formControlName="height" />
+      @if (registerForm.get('height')?.touched &&
+      registerForm.get('height')?.invalid) {
+      <div class="text-danger">Height must be between 50 and 300 cm.</div>
+      }
+    </div>
+
+    <!-- Weight -->
+    <div class="mb-3">
+      <label>Weight (in kg)</label>
+      <input type="number" class="form-control" formControlName="weight" />
+      @if (registerForm.get('weight')?.touched &&
+      registerForm.get('weight')?.invalid) {
+      <div class="text-danger">Weight must be between 20 and 300 kg.</div>
+      }
+    </div>
+
+    <!-- Contact Number -->
+    <div class="mb-3">
+      <label>Contact Number</label>
+      <input type="tel" class="form-control" formControlName="contact" />
+      @if (registerForm.get('contact')?.touched &&
+      registerForm.get('contact')?.invalid) {
+      <div class="text-danger">Contact number must be 10 digits.</div>
+      }
+    </div>
+
+    <!-- Email -->
+    <div class="mb-3">
+      <label>Email</label>
+      <input type="email" class="form-control" formControlName="email" />
+      @if (registerForm.get('email')?.touched &&
+      registerForm.get('email')?.invalid) {
+      <div class="text-danger">Enter a valid email address.</div>
+      }
+    </div>
+
+    <!-- Password -->
+    <div class="mb-3">
+      <label>Password</label>
+      <input type="password" class="form-control" formControlName="password" />
+      @if (registerForm.get('password')?.touched &&
+      registerForm.get('password')?.invalid) {
+      <div class="text-danger">Password must be at least 6 characters.</div>
+      }
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="btn btn-primary"
+      [disabled]="registerForm.invalid">
+      Register
+    </button>
+  </form>
+
+  <!-- Success and Error Messages -->
+  @if (successMessage) {
+  <div class="alert alert-success mt-3">
+    {{ successMessage }}
+  </div>
+  }
+
+  @if (errorMessage) {
+  <div class="alert alert-danger mt-3">
+    {{ errorMessage }}
+  </div>
+  }
+</div>

@@ -1,0 +1,260 @@
+/* --- General Container --- */
+.dashboard-container {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  background-color: #363b46;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --- Sidebar --- */
+.sidebar {
+  width: 250px;
+  background-color: #1f2937;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #f5f6fa;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.nav-links li {
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+  color: #ffffff;
+}
+
+.nav-links li:hover {
+  background-color: #374151;
+  transform: scale(1.02);
+}
+
+/* --- Main Content --- */
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background-color: #363b46;
+  color: #ffffff;
+  padding: 24px;
+}
+
+/* --- Top Bar --- */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 32px;
+  background-color: #2f3640;
+  border-bottom: 1px solid #444;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.nav-tabs {
+  display: flex;
+  gap: 20px;
+}
+
+.tab {
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #3a3f4b;
+  font-weight: 500;
+  transition: background 0.3s ease;
+  color: #ffffff;
+}
+
+.tab.active,
+.tab:hover {
+  background-color: #4b5162;
+}
+
+/* --- User Profile --- */
+.user-settings {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+  background-color: #2f3640;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.user-profile img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #3498db;
+  background-color: #ccc;
+}
+
+/* --- Content Area --- */
+.content-area {
+  padding: 32px;
+}
+
+/* --- Program Cards --- */
+.program-card {
+  background-color: #2f3640;
+  border-radius: 12px;
+  padding: 28px 36px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.card-header h3 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+.intensity-badge {
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  background-color: #555;
+  color: #fff;
+}
+
+.intensity-high {
+  background-color: #e74c3c;
+}
+
+.intensity-medium {
+  background-color: #f1c40f;
+  color: #000;
+}
+
+.intensity-low {
+  background-color: #2ecc71;
+}
+
+.card-body {
+  color: #bdc3c7;
+}
+
+.program-description {
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+  color: #ecf0f1;
+}
+
+.program-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.meta-item {
+  font-size: 1rem;
+  display: flex;
+  gap: 6px;
+}
+
+.meta-label {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.meta-value {
+  color: #bdc3c7;
+}
+
+/* --- States --- */
+.loading-indicator {
+  text-align: center;
+  padding: 20px;
+  background-color: #2f3640;
+  border-radius: 8px;
+  color: #f39c12;
+  margin-bottom: 20px;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 16px;
+    height: auto;
+    position: relative;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .nav-links li {
+    margin-bottom: 0;
+    padding: 10px 12px;
+  }
+
+  .top-bar {
+    flex-direction: column-reverse;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 0;
+    margin-bottom: 16px;
+  }
+
+  .content-area {
+    padding: 20px;
+  }
+
+  .program-card {
+    width: 100%;
+  }
+}

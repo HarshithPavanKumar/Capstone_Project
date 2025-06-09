@@ -1,0 +1,62 @@
+<div class="dashboard-container">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">🏋️ Admin Dashboard</div>
+    <ul class="nav-links">
+      <li [routerLink]="['/trainingPrograms', tokenPayload?.UserId]" class="nav-item">
+        Training Programs
+      </li>
+      <li (click)="navigateTo('createnewcomponent')" class="nav-item">
+        Create New Program
+      </li>
+      <li (click)="navigateTo('admincharts')" class="nav-item">
+        Athlete Reports
+      </li>
+      <li [routerLink]="['/admin-details', tokenPayload?.UserId]" class="nav-item">
+        Admin Details
+      </li>
+    </ul>
+    <button class="btn btn-danger logout-btn" (click)="logout()">Logout</button>
+  </aside>
+
+  <!-- Top Bar + Main Content -->
+  <div class="content-wrapper">
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <nav class="nav-tabs">
+        <span class="tab active" (click)="navigateTo('admindashboard')">Dashboard</span>
+      </nav>
+      <div class="user-settings">
+        <div class="user-profile">
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Admin" />
+          <span>{{ coachName }}</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <section class="content-area">
+        <div class="program-card">
+          <div class="card-header">
+            <h3>Admin Details</h3>
+          </div>
+          <div class="card-body">
+            <div class="program-meta">
+              <div class="meta-item"><span class="meta-label">Name:</span><span class="meta-value">{{ coach?.name }}</span></div>
+              <div class="meta-item"><span class="meta-label">Email:</span><span class="meta-value">{{ coach?.email }}</span></div>
+              <div class="meta-item"><span class="meta-label">Speciality:</span><span class="meta-value">{{ coach?.specialty }}</span></div>
+              <div class="meta-item"><span class="meta-label">Experience Level:</span><span class="meta-value">{{ coach?.experienceLevel }}</span></div>
+              <div class="meta-item"><span class="meta-label">Last Login:</span><span class="meta-value">{{ coach?.createdDateTime }}</span></div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <button class="btn-outline-blue" (click)="navigateTo('coach')">Go to Dashboard</button>
+            <button class="btn-outline-gray" (click)="navigateTo('manage-users')">Manage Users</button>
+            <button class="btn-outline-red" (click)="navigateTo('admin-login')">Logout</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>

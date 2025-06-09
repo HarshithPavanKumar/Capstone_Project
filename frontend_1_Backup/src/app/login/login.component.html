@@ -1,0 +1,42 @@
+<section class="container">
+  <div class="login-container">
+    <div class="circle circle-one"></div>
+
+    <div class="form-container">
+      <img
+        src="https://raw.githubusercontent.com/hicodersofficial/glassmorphism-login-form/master/assets/illustration.png"
+        alt="illustration"
+        class="illustration" />
+      <h1 class="opacity">LOGIN</h1>
+
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <input
+          type="email"
+          formControlName="email"
+          placeholder="EMAIL"
+          required />
+        <input
+          type="password"
+          formControlName="password"
+          placeholder="PASSWORD"
+          required />
+        <button class="opacity" type="submit" [disabled]="loginForm.invalid">
+          SUBMIT
+        </button>
+      </form>
+
+      <div class="register-forget opacity">
+        <!-- Use absolute path with leading slash for routerLink -->
+        <p><b>Not a Member?</b></p><a
+          routerLink="/athlete-register">REGISTER</a>
+      </div>
+
+      <!-- Correct Angular syntax for conditional display -->
+      <div *ngIf="errorMessage" class="error-message opacity">{{ errorMessage
+        }}</div>
+    </div>
+
+    <div class="circle circle-two"></div>
+  </div>
+  <div class="theme-btn-container"></div>
+</section>

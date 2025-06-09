@@ -1,0 +1,88 @@
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()" novalidate class="register-form">
+
+    <div>
+      <label for="name">Name</label>
+      <input id="name" type="text" formControlName="name" placeholder="Enter your name" />
+      @if (submitted && f['name'].errors) {
+        <div class="error-msg">
+          @if (f['name'].errors['required']) {
+            <div>Name is required.</div>
+          }
+          @if (f['name'].errors['pattern']) {
+            <div>Name must contain only letters and spaces.</div>
+          }
+        </div>
+      }
+    </div>
+  
+    <div>
+      <label for="email">Email</label>
+      <input id="email" type="email" formControlName="email" placeholder="Enter your email" />
+      @if (submitted && f['email'].errors) {
+        <div class="error-msg">
+          @if (f['email'].errors['required']) {
+            <div>Email is required.</div>
+          }
+          @if (f['email'].errors['email']) {
+            <div>Email must be valid.</div>
+          }
+        </div>
+      }
+    </div>
+  
+    <div>
+      <label for="password">Password</label>
+      <input id="password" type="password" formControlName="password" placeholder="Enter your password" />
+      @if (submitted && f['password'].errors) {
+        <div class="error-msg">
+          @if (f['password'].errors['required']) {
+            <div>Password is required.</div>
+          }
+          @if (f['password'].errors['minlength']) {
+            <div>Password must be at least 6 characters.</div>
+          }
+        </div>
+      }
+    </div>
+  
+    <div>
+      <label for="specialty">Specialty</label>
+      <input id="specialty" type="text" formControlName="specialty" placeholder="Enter your specialty" />
+      @if (submitted && f['specialty'].errors) {
+        <div class="error-msg">
+          @if (f['specialty'].errors['required']) {
+            <div>Specialty is required.</div>
+          }
+        </div>
+      }
+    </div>
+  
+    <div>
+      <label for="experienceLevel">Experience Level</label>
+      <select id="experienceLevel" formControlName="experienceLevel">
+        <option value="" disabled>Select experience level</option>
+        @for (level of experienceLevels; track $index) {
+          <option [value]="level">{{ level }}</option>
+        }
+      </select>
+      @if (submitted && f['experienceLevel'].errors) {
+        <div class="error-msg">
+          @if (f['experienceLevel'].errors['required']) {
+            <div>Experience level is required.</div>
+          }
+        </div>
+      }
+    </div>
+  
+    <button type="submit">Register</button>
+  
+    @if (successMessage) {
+      <div class="success-msg">{{ successMessage }}</div>
+    }
+  
+    @if (errorMessage) {
+      <div class="error-msg">{{ errorMessage }}</div>
+    }
+  
+  </form>
+  
